@@ -21,8 +21,11 @@ classifiers = [
 requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
+[tool.hatch.build]
+sources = ["src"]
+
 [tool.hatch.build.targets.wheel]
-packages = ["src/personal_logging"]
+packages = ["personal_logging"]
 
 [project.urls]
 Homepage = "https://github.com/Placewith5s/personal-logging"
