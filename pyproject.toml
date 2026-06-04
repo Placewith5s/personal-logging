@@ -1,6 +1,6 @@
 [project]
 name = "personal-logging"
-version = "1.0.1"
+version = "1.0.2"
 description = "A Python library for colored common logs with customization support."
 readme = "README.md"
 authors = [
