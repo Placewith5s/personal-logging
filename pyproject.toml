@@ -1,0 +1,32 @@
+[project]
+name = "personal-logging"
+version = "1.0.0"
+description = "A Python library for colored common logs with customization support."
+readme = "README.md"
+authors = [
+  { name="Placewith5s" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "build>=1.5.0",
+    "termcolor>=3.3.0",
+    "twine>=6.2.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+sources = ["src"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["personal_logging"]
+
+[project.urls]
+Homepage = "https://github.com/Placewith5s/personal-logging"
+Issues = "https://github.com/Placewith5s/personal-logging/issues"
